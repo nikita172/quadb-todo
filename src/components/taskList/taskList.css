@@ -1,0 +1,118 @@
+.cardContainer{
+  background-color: white;
+  width: 300px;
+  height: 250px;
+  padding: 10px 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  margin-right: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.cardContainer.background{
+  background-color: rgb(225, 239, 246);
+}
+.cardHeader{
+  display: flex;
+  align-items: center;
+}
+.headerDiv{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 1;
+}
+.headerDiv h3{
+  padding: 2px 6px;
+  font-family: "Roboto";
+  font-weight: 500;
+  background-color: rgb(247, 219, 8);
+  border-radius: 13px;
+  font-size: 17px;
+}
+.openEditListIcon{
+  cursor: pointer;
+}
+.createdDate{
+  font-size: 13px;
+  color: gray;
+  margin-top: 10px;
+}
+.subTitle{
+  margin-top: 5px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+.yellowDot{
+  background-color: rgb(247, 219, 8);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+}
+.todos{
+  font-size: 15px;
+  margin-top: 5px;
+  overflow: hidden;
+  height: calc(100% - 85px)
+}
+
+.editOptions{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240, 240, 240);
+  top: 8px;
+  right: 9px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.editOptionCloseBtn{
+  align-self: self-end;
+  background-color: rgb(247, 219, 8);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  margin: 4px;
+  cursor: pointer;
+}
+.editOptionCloseIcon{
+  width: 18px;
+}
+
+.editOptions span{
+  cursor: pointer;
+  margin: 3px 7px;
+  color: rgb(79, 77, 77);
+  padding: 5px;
+  border-radius: 5px;
+
+}
+.editOptions span:hover{
+  background-color: rgb(247, 219, 8);
+}
+
+.todoStatus{
+  display: flex;
+  gap: 2px;
+  margin-bottom: 10px;
+
+}
+.todoStatus span{
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 5px;
+  padding: 2px 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.pendingSelected{
+  background-color: rgb(247, 219, 8);
+}
+.completedSelected{
+  background-color: rgb(247, 219, 8);
+}

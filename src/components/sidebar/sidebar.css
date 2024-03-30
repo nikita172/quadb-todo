@@ -1,0 +1,49 @@
+.sidebarContainer{
+  display: flex;
+  flex: 1;
+   height: 100vh;
+  }
+
+.sidebarWrapper{
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  margin: 30px;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+}
+.noteHeading{
+  font-family: "Roboto";
+  font-weight: 400;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 24px;
+  
+}
+.sidebars{
+  padding: 15px 25px;
+}
+.sidebar{
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.sidebarIcon{
+  width: 22px;
+  height: 21px;
+  margin-right: 15px;
+}
+
+.menuTitle{
+  font-size: 17px;
+}
+
+.aboutusTitle{
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+}
